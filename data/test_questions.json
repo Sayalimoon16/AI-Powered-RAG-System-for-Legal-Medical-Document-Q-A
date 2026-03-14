@@ -1,0 +1,53 @@
+[
+{
+"question": "What agreements are considered contracts?",
+"ground_truth": "All agreements are contracts if they are made by the free consent of parties competent to contract.",
+"doc_type": "legal"
+},
+{
+"question": "What is consideration in contract law?",
+"ground_truth": "Such act or abstinence or promise is called consideration.",
+"doc_type": "legal"
+},
+{
+"question": "What does the Sale of Goods Act regulate?",
+"ground_truth": "An Act to define and amend the law relating to the sale of goods.",
+"doc_type": "legal"
+},
+{
+"question": "What is a partnership?",
+"ground_truth": "Partnership is the relation between persons who have agreed to share the profits of a business.",
+"doc_type": "legal"
+},
+{
+"question": "What is liability in legal agreements?",
+"ground_truth": "Liability refers to responsibility for loss or injury caused to another party.",
+"doc_type": "legal"
+},
+
+{
+"question": "What is the patient's glucose level?",
+"ground_truth": "The glucose level reported is 6.6 mmol/L.",
+"doc_type": "medical"
+},
+{
+"question": "What is the HbA1c value in the lab report?",
+"ground_truth": "The HbA1c value is 5.2%.",
+"doc_type": "medical"
+},
+{
+"question": "Where are treatment details mentioned?",
+"ground_truth": "Treatment details are listed under the Treatment Provided section.",
+"doc_type": "medical"
+},
+{
+"question": "Where is the patient's diagnosis mentioned?",
+"ground_truth": "The diagnosis is mentioned in the Clinical Summary section.",
+"doc_type": "medical"
+},
+{
+"question": "Where are follow-up instructions provided?",
+"ground_truth": "Follow-up instructions are listed under the Follow-Up Instructions section.",
+"doc_type": "medical"
+}
+]

@@ -1,0 +1,312 @@
+[
+    {
+        "question": "What is a contract agreement?",
+        "answer": "[Source: contract1.pdf, Page 18]\n\nIt is a promise, made in writing and signed by the person to be charged therewith, or by his agent generally or specially authorized in that behalf, to pay wholly or in part a debt of which the creditor might have enforced payment but for the law for the limitation of suits.",
+        "sources": [
+            {
+                "file": "contract1.pdf",
+                "page": 18,
+                "score": 0.5555073618888855
+            },
+            {
+                "file": "contract3.pdf",
+                "page": 13,
+                "score": 0.5472626090049744
+            },
+            {
+                "file": "contract2.pdf",
+                "page": 5,
+                "score": 0.5296407341957092
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 11,
+                "score": 0.5443900227546692
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 34,
+                "score": 0.5342031717300415
+            }
+        ]
+    },
+    {
+        "question": "Define liability clause",
+        "answer": "The document does not contain a definition of the term \"liability clause\".",
+        "sources": [
+            {
+                "file": "contract1.pdf",
+                "page": 25,
+                "score": 0.5499711632728577
+            },
+            {
+                "file": "contract3.pdf",
+                "page": 20,
+                "score": 0.5458190441131592
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 5,
+                "score": 0.5282564759254456
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 4,
+                "score": 0.533315122127533
+            },
+            {
+                "file": "contract3.pdf",
+                "page": 8,
+                "score": 0.5391245484352112
+            }
+        ]
+    },
+    {
+        "question": "What does the contract act say about agreements?",
+        "answer": "According to the contract act, all agreements are contracts if they are made by the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not hereby expressly declared to be void. \n\n[Source: contract1.pdf, Page 13]",
+        "sources": [
+            {
+                "file": "contract3.pdf",
+                "page": 13,
+                "score": 0.589694619178772
+            },
+            {
+                "file": "contract2.pdf",
+                "page": 6,
+                "score": 0.5378662943840027
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 18,
+                "score": 0.5247347354888916
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 1,
+                "score": 0.5238708257675171
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 13,
+                "score": 0.5674086213111877
+            }
+        ]
+    },
+    {
+        "question": "What is the patient's glucose level?",
+        "answer": "The patient's glucose level is 6.6 mmol/L. \n\n[Source: Sample-Lab-Report.pdf, Page 1]\n\nThis value falls within the target range for all other individuals not in category A or C, as per the guidelines.",
+        "sources": [
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 1,
+                "score": 0.5317614078521729
+            },
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 2,
+                "score": 0.500404417514801
+            },
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 3,
+                "score": 0.49584245681762695
+            },
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 3,
+                "score": 0.44486624002456665
+            },
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 2,
+                "score": 0.5111221671104431
+            }
+        ]
+    },
+    {
+        "question": "What treatment was provided?",
+        "answer": "The document does not contain information about the treatment provided.",
+        "sources": [
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 1,
+                "score": 0.44295820593833923
+            },
+            {
+                "file": "Hospital-Discharge-Summary-Format.pdf",
+                "page": 2,
+                "score": 0.4426570534706116
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 14,
+                "score": 0.4160805642604828
+            },
+            {
+                "file": "MedicalReport1.pdf",
+                "page": 2,
+                "score": 0.4378633201122284
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 32,
+                "score": 0.4057176411151886
+            }
+        ]
+    },
+    {
+        "question": "What follow-up instructions were given?",
+        "answer": "Unfortunately, the provided documents do not contain follow-up instructions.",
+        "sources": [
+            {
+                "file": "Hospital-Discharge-Summary-Format.pdf",
+                "page": 2,
+                "score": 0.533363401889801
+            },
+            {
+                "file": "contract2.pdf",
+                "page": 15,
+                "score": 0.41927552223205566
+            },
+            {
+                "file": "contract3.pdf",
+                "page": 19,
+                "score": 0.4346291124820709
+            },
+            {
+                "file": "MedicalReport1.pdf",
+                "page": 1,
+                "score": 0.4258893132209778
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 1,
+                "score": 0.42275527119636536
+            }
+        ]
+    },
+    {
+        "question": "What diagnosis was mentioned?",
+        "answer": "Based on the provided clinical report, the following diagnoses were mentioned:\n\n- Asthma [Source: MedicalReport1.pdf, Page 2]\n- Tuberculosis (PTB) [Source: MedicalReport1.pdf, Page 2]\n- Hypertension (HPT) [Source: MedicalReport1.pdf, Page 2]\n- Diabetes Mellitus (DM) [Source: MedicalReport1.pdf, Page 2]\n- Heart Diseases [Source: MedicalReport1.pdf, Page 2]\n- Malaria [Source: MedicalReport1.pdf, Page 2]\n- Thyroid Diseases [Source: MedicalReport1.pdf, Page 2]\n- Kidney Diseases [Source: MedicalReport1.pdf, Page 2]\n- Cancer [Source: MedicalReport1.pdf, Page 2]\n- HIV/AIDS [Source: MedicalReport1.pdf, Page 2]\n- Venereal Diseases [Source: MedicalReport1.pdf, Page 2]\n- Leukemia [Source: MedicalReport1.pdf, Page 2]\n- Hemophilia [Source: MedicalReport1.pdf, Page 2]\n- Hepatitis [Source: MedicalReport1.pdf, Page 2]\n- Measles [Source: MedicalReport1.pdf, Page 2]\n- German Measles (rubella) [Source: MedicalReport1.pdf, Page 2]\n\nNote that the patient also reported having other illnesses, but the specific conditions were not mentioned in the provided report.",
+        "sources": [
+            {
+                "file": "MedicalReport1.pdf",
+                "page": 2,
+                "score": 0.49538812041282654
+            },
+            {
+                "file": "MedicalReport1.pdf",
+                "page": 3,
+                "score": 0.4873570501804352
+            },
+            {
+                "file": "contract1.pdf",
+                "page": 14,
+                "score": 0.43028801679611206
+            },
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 3,
+                "score": 0.47518208622932434
+            },
+            {
+                "file": "MedicalReport1.pdf",
+                "page": 2,
+                "score": 0.4786430299282074
+            }
+        ]
+    },
+    {
+        "question": "Explain partnership definition",
+        "answer": "\"Partnership\" is the relation between persons who have agreed to share the profits of a business carried on by all or any of them acting for all. [Source: contract3.pdf, Page 5]",
+        "sources": [
+            {
+                "file": "contract3.pdf",
+                "page": 5,
+                "score": 0.6834114193916321
+            },
+            {
+                "file": "contract3.pdf",
+                "page": 5,
+                "score": 0.6749933362007141
+            },
+            {
+                "file": "contract3.pdf",
+                "page": 5,
+                "score": 0.6080732941627502
+            },
+            {
+                "file": "contract3.pdf",
+                "page": 5,
+                "score": 0.5668250918388367
+            },
+            {
+                "file": "contract3.pdf",
+                "page": 1,
+                "score": 0.5996841192245483
+            }
+        ]
+    },
+    {
+        "question": "What blood test values are reported?",
+        "answer": "Here are the reported blood test values:\n\n1. HbA1c: 5.2% [Source: Sample-Lab-Report.pdf, Page 2]\n   - This value is within the normal range (< 5.7%) for Malaysian adults.\n\n2. Sodium: 141 mmol/L [Source: Sample-Lab-Report.pdf, Page 1]\n   - This value is within the normal range (135-145 mmol/L).\n\n3. Potassium: 4.1 mmol/L [Source: Sample-Lab-Report.pdf, Page 1]\n   - This value is within the normal range (3.5-5.1 mmol/L).\n\n4. Chloride: 99 mmol/L [Source: Sample-Lab-Report.pdf, Page 1]\n   - This value is within the normal range (95-110 mmol/L).\n\n5. Urea: 7.1 mmol/L [Source: Sample-Lab-Report.pdf, Page 1]\n   - This value is within the normal range (3.0-10.0 mmol/L).\n\n6. Creatinine: 88 umol/L [Source: Sample-Lab-Report.pdf, Page 1]\n   - This value is within the normal range (44-110 umol/L).\n\n7. eGFR: 60 mL/min/1.73m2 [Source: Sample-Lab-Report.pdf, Page 1]\n   - This value indicates an eGFR (CKD-EPI) of Normal or Mildly decreased.\n\n8. Uric Acid: 0.21 mmol/L [Source: Sample-Lab-Report.pdf, Page 1]\n   - This value is within the normal range (0.15-0.45 mmol/L).\n\n9. Glucose: Not reported in the provided lab report.",
+        "sources": [
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 3,
+                "score": 0.5621126890182495
+            },
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 2,
+                "score": 0.505682647228241
+            },
+            {
+                "file": "MedicalReport1.pdf",
+                "page": 3,
+                "score": 0.4755306541919708
+            },
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 1,
+                "score": 0.4715329110622406
+            },
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 2,
+                "score": 0.4536058306694031
+            }
+        ]
+    },
+    {
+        "question": "Is the patient medically fit?",
+        "answer": "Based on the provided clinical report, the patient's medical fitness is as follows:\n\nThe patient is NOT medically fit to undertake a program in Taiwan. \n[Source: MedicalReport1.pdf, Page 4]\n\nThis is because the report states \"The applicant suffers mental or physical defects and is NOT in good health.\" \n[Source: MedicalReport1.pdf, Page 4]",
+        "sources": [
+            {
+                "file": "MedicalReport1.pdf",
+                "page": 4,
+                "score": 0.4852214753627777
+            },
+            {
+                "file": "MedicalReport1.pdf",
+                "page": 3,
+                "score": 0.44725045561790466
+            },
+            {
+                "file": "MedicalReport1.pdf",
+                "page": 4,
+                "score": 0.48414146900177
+            },
+            {
+                "file": "Sample-Lab-Report.pdf",
+                "page": 3,
+                "score": 0.4486594796180725
+            },
+            {
+                "file": "MedicalReport1.pdf",
+                "page": 2,
+                "score": 0.42644786834716797
+            }
+        ]
+    }
+]
