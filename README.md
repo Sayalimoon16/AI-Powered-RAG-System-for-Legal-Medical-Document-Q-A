@@ -244,32 +244,43 @@ AI / Data Science Project
 This project is open-source and available under the MIT License.
 
 ## Task Summary
+## 📋 Task Summary
 
-| Task |     Task Name       | Description                                                                    | Deliverable |
-| **T1** | PDF Ingestion | PyMuPDF parsing, page extraction, document type detection, metadata tagging         | `ingestion.py` |
-| **T2** | Text Chunking | RecursiveCharacterTextSplitter, domain-aware chunking, overlap tuning               | `chunker.py` |
-| **T3** | Embedding + FAISS | SBERT embeddings, FAISS index build/save/load, metadata store                   | `embedder.py` |
-| **T4** | Retrieval Logic | Top-k similarity search, MMR diversification, confidence threshold,
-domain filtering                                                                                                | `retriever.py` |
-| **T5** | LLM + RAG Chain | Groq API integration, LangChain RetrievalQA pipeline, prompt templates, 
-source citation, hallucination guard                                                                            | `llm_chain.py` |
-| **T6** | RAGAS Evaluation | Faithfulness, answer relevancy, context recall, context precision 
-metrics with visualization                                                                                      | `evaluator.py` |
-| **T7** | Streamlit App | PDF upload interface, chat UI, source panel, confidence indicator, deployment           | `app.py` |
-| **T8** | Error Handling | API retry logic, invalid input handling, logging system, environment variable
-validation                                                                                                        | `utils.py` |
-| **T9** | Documentation | Project README, architecture diagram, setup guide, GitHub repository documentation | `README.md` |
+The project is implemented in modular tasks to ensure scalability and maintainability.
+
+| Task | Task Name | Description | Deliverable |
+|-----|-----------|-------------|-------------|
+| **T1** | PDF Ingestion | Extract text from PDFs using PyMuPDF, detect document type, and attach metadata such as page number and source file | `ingestion.py` |
+| **T2** | Text Chunking | Split documents using RecursiveCharacterTextSplitter with optimized chunk size and overlap | `chunker.py` |
+| **T3** | Embedding + FAISS | Generate semantic embeddings using SBERT and store them in FAISS vector index | `embedder.py` |
+| **T4** | Retrieval Logic | Retrieve top-k relevant chunks using similarity search and apply filtering rules | `retriever.py` |
+| **T5** | LLM + RAG Chain | Integrate Groq LLM with LangChain RetrievalQA pipeline and add prompt templates and citations | `llm_chain.py` |
+| **T6** | RAGAS Evaluation | Evaluate system using Faithfulness and Answer Relevancy metrics and visualize results | `evaluator.py` |
+| **T7** | Streamlit Application | Interactive web interface for document upload and question answering | `app.py` |
+| **T8** | Error Handling | Implement API retry logic, logging, input validation and environment variable checks | `utils.py` |
+| **T9** | Documentation | Project documentation including architecture diagram, setup instructions, and usage guide | `README.md` |
 
 
-Project Title
-Problem Statement
-System Architecture
-Tech Stack
-Project Structure
-Task Summary  ← yaha
-Setup Instructions
-Groq API Key Guide
-Sample Outputs
-RAGAS Evaluation
-Challenges
-Future Improvements
+# AI-Powered RAG System for Legal & Medical Documents
+
+## Problem Statement
+
+## System Architecture
+
+## Tech Stack
+
+## Project Structure
+
+## Task Summary
+
+## Setup Instructions
+
+## Getting Groq API Key
+
+## Sample Q&A Outputs
+
+## RAGAS Evaluation Results
+
+## Challenges Faced
+
+## Future Improvements
