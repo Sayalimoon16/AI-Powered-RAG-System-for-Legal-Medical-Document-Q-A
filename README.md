@@ -165,10 +165,16 @@ Evaluation metrics used:
 
 • Faithfulness  
 • Answer Relevancy  
-
+ . context_recall
+ . context_precision
 Example:
 
-Faithfulness: 0.60
+
+  "faithfulness": 0.7222222222222222,
+  "answer_relevancy": 0.7975466680241915,
+  "context_recall": 0.8333333333333334,
+  "context_precision": 0.89999999993
+
 
 This indicates the generated answer is moderately grounded in the retrieved document context.
 
@@ -228,7 +234,8 @@ Possible improvements:
 
 Streamlit App:
 
-(Add your Streamlit Cloud link here)
+Local URL: http://localhost:8501
+Network URL: http://192.168.1.12:8501
 
 ---
 
