@@ -161,19 +161,23 @@ contract.pdf — Page 6
 
 ## RAGAS Evaluation Results
 
-Evaluation metrics used:
+The system was evaluated using the RAGAS framework with the following metrics:
 
-• Faithfulness  
-• Answer Relevancy  
- . context_recall
- . context_precision
-Example:
+- Faithfulness
+- Answer Relevancy
+- Context Recall
+- Context Precision
 
+### Example Evaluation Scores
 
-  "faithfulness": 0.7222222222222222,
-  "answer_relevancy": 0.7975466680241915,
-  "context_recall": 0.8333333333333334,
-  "context_precision": 0.89999999993
+| Metric | Score |
+|------|------|
+| Faithfulness | 0.72 |
+| Answer Relevancy | 0.79 |
+| Context Recall | 0.83 |
+| Context Precision | 0.90 |
+
+These results indicate that the generated answers are well-grounded in the retrieved document context and the retrieval pipeline is performing effectively.
 
 
 This indicates the generated answer is moderately grounded in the retrieved document context.
@@ -187,6 +191,16 @@ Files include:
 
 - ragas_scores.json
 - ragas_scores_chart.png
+
+- ### Raw Evaluation Output
+
+```json
+{
+ "faithfulness": 0.7222,
+ "answer_relevancy": 0.7975,
+ "context_recall": 0.8333,
+ "context_precision": 0.90
+}
 
 ---
 
