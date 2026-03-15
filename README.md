@@ -194,7 +194,7 @@ Files include:
 
 - ### Raw Evaluation Output
 
-```json
+## json
 {
  "faithfulness": 0.7222,
  "answer_relevancy": 0.7975,
